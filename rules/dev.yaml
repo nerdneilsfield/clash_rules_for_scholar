@@ -1,0 +1,89 @@
+# need to use school rules to do this
+payload:
+  # python
+  - DOMAIN-SUFFIX, python.org
+  - DOMAIN-SUFFIX, pypi.org
+  - DOMAIN-SUFFIX, pypa.io
+  - DOMAIN-SUFFIX, readthedocs.org
+  - DOMAIN-SUFFIX, realpython.com
+  - DOMAIN, pyfound.blogspot.com
+  - DOMAIN-SUFFIX, yasoob.me
+  - DOMAIN-SUFFIX, planetpython.org
+  - DOMAIN-SUFFIX, pythonlibrary.org
+  - DOMAIN, blog.finxter.com
+  - DOMAIN, blog.jetbrians.com
+  - DOMAIN-SUFFIX, scipy.org
+  - DOMAIN-SUFFIX, pythonblogs.com
+  - DOMAIN-SUFFIX, askpython.com
+  - DOMAIN-SUFFIX, fullstackpython.com
+  #golang
+  - DOMAIN-SUFFIX, golang.org
+  - DOMAIN-SUFFIX, go.dev
+  - DOMAIN-SUFFIX, gohugo.io
+  # rust
+  - DOMAIN-SUFFIX, rustup.rs
+  - DOMAIN-SUFFIX, rust-lang.org
+  - DOMAIN-SUFFIX, cargo.site
+  - DOMAIN-SUFFIX, creates.io
+  - DOMAIN-SUFFIX, docs.rs
+  # cpp
+  - DOMAIN-SUFFIX, gnu.org
+  - DOMAIN-SUFFIX, llvm.org
+  - DOMAIN-SUFFIX, cplusplus.org
+  - DOMAIN-SUFFIX, cppreference.com
+  - DOMAIN-SUFFIX, isocpp.org
+  - DOMAIN-SUFFIX, boost.org
+  - DOMAIN-SUFFIX, abseil.io
+  - DOMAIN-SUFFIX, conan.io
+  - DOMAIN-SUFFIX, jfrog.io
+  - DOMAIN-SUFFIX, cmake.org 
+  - DOMAIN-SUFFIX, qt.io
+  # zig
+  - DOMAIN-SUFFIX, ziglang.org
+  # scala
+  - DOMAIN-SUFFIX, scala-lang.org
+  - DOMAIN-SUFFIX, scala-sbt.org
+  # nim
+  - DOMAIN-SUFFIX, nim-lang.org
+  - DOMAIN-SUFFIX, nimble.directory
+  # dlang
+  - DOMAIN-SUFFIX, dlang.org
+  - DOMAIN-SUFFIX, libmir.org
+  - DOMAIN-SUFFIX, vibed.org
+  # flutter
+  - DOMAIN-SUFFIX, flutter.dev
+  - DOMAIN-SUFFIX, dart.dev
+  # question
+  - DOMAIN-SUFFIX, qitta.com
+  - DOMAIN-SUFFIX, stackoverflow.com
+  - DOMAIN-SUFFIX, stackexchange.com
+  - DOMAIN-SUFFIX, medium.com
+  - DOMAIN-SUFFIX, askubuntu.com
+  # linux 
+  - DOMAIN, ubuntu.com
+  - DOMAIN, docs.ubuntu.com
+  - DOMAIN, discourse.ubuntu.com
+  - DOMAIN, ubuntuforums.org
+  - DOMAIN, archlinux.org
+  - DOMAIN, cyberciti.biz
+  # docs
+  - DOMAIN-SUFFIX, dev.to
+  # tutorial
+  - DOMAIN-SUFFIX, geeksforgeeks.org
+  - DOMAIN-SUFFIX, tutorialspoint.com
+  - DOMAIN-SUFFIX, programcreek.com
+  # - DOMAIN-SUFFIX, runoob.com, DIRECT
+  # versin manager
+  - DOMAIN-SUFFIX, github.com
+  - DOMAIN-SUFFIX, github.io
+  - DOMAIN-SUFFIX, github.dev
+  - DOMAIN-SUFFIX, github.community
+  - DOMAIN-SUFFIX, github.blog
+  - DOMAIN-SUFFIX, github.xyz
+  - DOMAIN-SUFFIX, gitlab.com
+  - DOMAIN-SUFFIX, gitlab.io
+  - DOMAIN-SUFFIX, bitbucket.org
+  # - DOMAIN-SUFFIX, gitee.com, DIRECT
+  # - DOMAIN-SUFFIX, gitee.io, DIRECT
+  # dns
+  - DOMAIN-SUFFIX, he.net

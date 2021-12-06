@@ -1,0 +1,14 @@
+# need to use video rules to do this
+payload:
+  #video
+  #youtube
+  - DOMAIN-SUFFIX, youtube.com
+  # - DOMAIN-SUFFIX, ggpht.com
+  - DOMAIN-SUFFIX, ytimg.com
+  - DOMAIN-SUFFIX, googlevideo.com
+  # adult video
+  - DOMAIN-SUFFIX, pornhub.com
+  - DOMAIN-SUFFIX, xvideos.com
+  - DOMAIN-SUFFIX, twitch.tv
+  - DOMAIN-SUFFIX, twitchcdn.net
+  - DOMAIN-SUFFIX, twitchcdn.com
