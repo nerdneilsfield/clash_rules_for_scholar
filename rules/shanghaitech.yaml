@@ -1,7 +1,5 @@
 # need to use cdn rules to do this
 payload:
-  - DOMAIN-SUFFIX,shtech.mobi
-  - DOMAIN-SUFFIX,ricl-lab.com
   - IP-CIDR, 10.15.0.0/16
   - IP-CIDR, 10.13.0.0/16
   - IP-CIDR, 10.10.0.0/16
