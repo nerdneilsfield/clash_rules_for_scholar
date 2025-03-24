@@ -1,22 +1,10 @@
 # need to use cdn rules to do this
 payload:
+  - DOMAIN-SUFFIX,shtech.mobi
+  - DOMAIN-SUFFIX,ricl-lab.com
   - IP-CIDR, 10.15.0.0/16
+  - IP-CIDR, 10.13.0.0/16
   - IP-CIDR, 10.10.0.0/16
   - IP-CIDR, 10.19.0.0/16
-  # - IP-CIDR, 10.19.122.0/24
-  # - IP-CIDR, 10.19.123.0/24
-  # - IP-CIDR, 10.19.124.0/24
-  # - IP-CIDR, 10.19.125.0/24
-  # - IP-CIDR, 10.19.126.0/24
-  # - IP-CIDR, 10.19.127.0/24
-  # - IP-CIDR, 10.19.128.0/24
-  # - IP-CIDR, 10.19.129.0/24
-  # - IP-CIDR, 10.19.130.0/24
-  # - IP-CIDR, 10.19.131.0/24
-  # - IP-CIDR, 10.19.132.0/24
-  # - IP-CIDR, 10.19.133.0/24
-  # - IP-CIDR, 10.19.134.0/24
-  # - IP-CIDR, 10.19.135.0/24
-  # - IP-CIDR, 10.19.136.0/24
-  # - IP-CIDR, 10.19.137.0/24
   - IP-CIDR, 10.20.0.0/16
+  - IP-CIDR, 10.21.0.0/16
