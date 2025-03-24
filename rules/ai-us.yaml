@@ -1,0 +1,33 @@
+payload:
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN,chat.openai.com
+  - DOMAIN,gemini.google.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN,grok.x.ai
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN,claude.ai
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN,copilot.microsoft.com
+  - DOMAIN,aistudio.google.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,cerebras.ai
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN,operator.chatgpt.com
+  - DOMAIN,grok.com
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,you.com
+  - DOMAIN-SUFFIX,devv.ai
+  - DOMAIN-SUFFIX,midjourney.com
+  - DOMAIN-SUFFIX,fish.audio
+  - DOMAIN-SUFFIX, elevenlabs.io       # ElevenLabs 主域名（语音合成）
+  - DOMAIN, elevenlabs.io              # ElevenLabs 网页版
+  - DOMAIN-SUFFIX, runwayml.com        # Runway 主域名（创意工具）
+  - DOMAIN, app.runwayml.com           # Runway 应用入口
+  - DOMAIN-SUFFIX, meta.ai             # Llama (Meta AI)
+  - DOMAIN-SUFFIX, mistral.ai          # Mistral AI 主域名
+  - DOMAIN, chat.mixtral.ai            # Mistral 聊天入口
+  - DOMAIN-SUFFIX, huggingface.co      # Hugging Face（模型托管）
+  - DOMAIN-SUFFIX, midjourney.com      # Midjourney（图像生成）
+  - DOMAIN-SUFFIX,stability.ai
+  
