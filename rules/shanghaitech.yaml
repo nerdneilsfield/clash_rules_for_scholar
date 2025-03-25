@@ -1,8 +1,8 @@
 # need to use cdn rules to do this
 payload:
-  - IP-CIDR, 10.15.0.0/16
-  - IP-CIDR, 10.13.0.0/16
-  - IP-CIDR, 10.10.0.0/16
-  - IP-CIDR, 10.19.0.0/16
-  - IP-CIDR, 10.20.0.0/16
-  - IP-CIDR, 10.21.0.0/16
+  - IP-CIDR,10.15.0.0/16
+  - IP-CIDR,10.13.0.0/16
+  - IP-CIDR,10.10.0.0/16
+  - IP-CIDR,10.19.0.0/16
+  - IP-CIDR,10.20.0.0/16
+  - IP-CIDR,10.21.0.0/16
