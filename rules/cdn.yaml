@@ -1,99 +1,99 @@
 # need to use cdn rules to do this
 payload:
-  #s3
-  - DOMAIN-SUFFIX, s3.amazonaws.com
-  - DOMAIN, s3.amazonaws.com
-  - DOMAIN-SUFFIX, githubusercontent.com
+  # s3
+  - DOMAIN-SUFFIX,s3.amazonaws.com
+  - DOMAIN,s3.amazonaws.com
+  - DOMAIN-SUFFIX,githubusercontent.com
   # drop box
-  - DOMAIN-SUFFIX, dropboxusercontent.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
   # cachefly
-  - DOMAIN-SUFFIX, cachefly.net 
+  - DOMAIN-SUFFIX,cachefly.net 
   # cloudfront
-  - DOMAIN-SUFFIX, cloudfront.net
+  - DOMAIN-SUFFIX,cloudfront.net
   # mega
-  - DOMAIN, mega.nz
+  - DOMAIN,mega.nz
   # onedrive
   # google drive
   - DOMAIN-SUFFIX, googleusercontent.com
   # ieee
   - DOMAIN-SUFFIX, tiqcdn.com
   # cloudflare
-  - IP-CIDR, 173.245.48.0/20
-  - IP-CIDR, 103.21.244.0/22
-  - IP-CIDR, 103.22.200.0/22
-  - IP-CIDR, 103.31.4.0/22
-  - IP-CIDR, 141.101.64.0/18
-  - IP-CIDR, 108.162.192.0/18
-  - IP-CIDR, 190.93.240.0/20
-  - IP-CIDR, 188.114.96.0/20
-  - IP-CIDR, 197.234.240.0/22
-  - IP-CIDR, 198.41.128.0/17
-  - IP-CIDR, 162.158.0.0/15
-  - IP-CIDR, 104.16.0.0/13
-  - IP-CIDR, 104.24.0.0/14
-  - IP-CIDR, 172.64.0.0/13
-  - IP-CIDR, 131.0.72.0/22 
+  - IP-CIDR,173.245.48.0/20
+  - IP-CIDR,103.21.244.0/22
+  - IP-CIDR,103.22.200.0/22
+  - IP-CIDR,103.31.4.0/22
+  - IP-CIDR,141.101.64.0/18
+  - IP-CIDR,108.162.192.0/18
+  - IP-CIDR,190.93.240.0/20
+  - IP-CIDR,188.114.96.0/20
+  - IP-CIDR,197.234.240.0/22
+  - IP-CIDR,198.41.128.0/17
+  - IP-CIDR,162.158.0.0/15
+  - IP-CIDR,104.16.0.0/13
+  - IP-CIDR,104.24.0.0/14
+  - IP-CIDR,172.64.0.0/13
+  - IP-CIDR,131.0.72.0/22 
 
   # 新增部分
   # Akamai
-  - DOMAIN-SUFFIX, akamai.net
-  - DOMAIN-SUFFIX, akamaiedge.net
-  - DOMAIN-SUFFIX, akamaihd.net
-  - IP-CIDR, 23.0.0.0/12
-  - IP-CIDR, 104.64.0.0/10
+  - DOMAIN-SUFFIX,akamai.net
+  - DOMAIN-SUFFIX,akamaiedge.net
+  - DOMAIN-SUFFIX,akamaihd.net
+  - IP-CIDR,23.0.0.0/12
+  - IP-CIDR,104.64.0.0/10
   # Fastly
-  - DOMAIN-SUFFIX, fastly.net
-  - DOMAIN-SUFFIX, fastlylb.net
-  - IP-CIDR, 151.101.0.0/16
-  - IP-CIDR, 146.75.0.0/16
+  - DOMAIN-SUFFIX,fastly.net
+  - DOMAIN-SUFFIX,fastlylb.net
+  - IP-CIDR,151.101.0.0/16
+  - IP-CIDR,146.75.0.0/16
   # Azure CDN
-  - DOMAIN-SUFFIX, azureedge.net
-  - DOMAIN-SUFFIX, vo.msecnd.net
-  - IP-CIDR, 13.64.0.0/11
-  - IP-CIDR, 20.36.0.0/14
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,vo.msecnd.net
+  - IP-CIDR,13.64.0.0/11
+  - IP-CIDR,20.36.0.0/14
   # Google Cloud CDN
-  - DOMAIN-SUFFIX, gstatic.com
-  - DOMAIN-SUFFIX, googleapis.com
-  - IP-CIDR, 35.184.0.0/13
-  - IP-CIDR, 34.64.0.0/10
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - IP-CIDR,35.184.0.0/13
+  - IP-CIDR,34.64.0.0/10
   # AWS 扩展
-  - DOMAIN-SUFFIX, amazonaws.com
-  - DOMAIN-SUFFIX, awsstatic.com
-  - IP-CIDR, 52.84.0.0/15
-  - IP-CIDR, 54.192.0.0/12
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,awsstatic.com
+  - IP-CIDR,52.84.0.0/15
+  - IP-CIDR,54.192.0.0/12
   # Dropbox 扩展
-  - DOMAIN-SUFFIX, dropbox.com
-  - DOMAIN-SUFFIX, dropboxapi.com
-  # GitHub 扩展
-  - DOMAIN-SUFFIX, github.com
-  - DOMAIN-SUFFIX, github.io
-  - IP-CIDR, 192.30.252.0/22
-  - IP-CIDR, 140.82.112.0/20
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropboxapi.com
+  # # GitHub 扩展
+  # - DOMAIN-SUFFIX,github.com
+  # - DOMAIN-SUFFIX,github.io
+  # - IP-CIDR,192.30.252.0/22
+  # - IP-CIDR,140.82.112.0/20
   # # OneDrive
-  # - DOMAIN-SUFFIX, onedrive.live.com
-  # - DOMAIN-SUFFIX, 1drv.ms
-  # - IP-CIDR, 13.107.0.0/16
+  # - DOMAIN-SUFFIX,onedrive.live.com
+  # - DOMAIN-SUFFIX,1drv.ms
+  # - IP-CIDR,13.107.0.0/16
   # Mega 扩展
-  - DOMAIN-SUFFIX, mega.co.nz
-  - IP-CIDR, 31.216.144.0/21
+  - DOMAIN-SUFFIX,mega.co.nz
+  - IP-CIDR,31.216.144.0/21
   # StackPath
-  - DOMAIN-SUFFIX, stackpath.com
-  - DOMAIN-SUFFIX, stackpathcdn.com
-  - IP-CIDR, 151.139.0.0/16
+  - DOMAIN-SUFFIX,stackpath.com
+  - DOMAIN-SUFFIX,stackpathcdn.com
+  - IP-CIDR,151.139.0.0/16
   # BunnyCDN
-  - DOMAIN-SUFFIX, bunnycdn.com
-  - DOMAIN-SUFFIX, b-cdn.net
-  - IP-CIDR, 185.93.0.0/22
+  - DOMAIN-SUFFIX,bunnycdn.com
+  - DOMAIN-SUFFIX,b-cdn.net
+  - IP-CIDR,185.93.0.0/22
   # BitTorrent
-  - DOMAIN-SUFFIX, bittorrent.com
-  - DOMAIN-SUFFIX, utorrent.com
+  - DOMAIN-SUFFIX,bittorrent.com
+  - DOMAIN-SUFFIX,utorrent.com
   # SourceForge
-  - DOMAIN-SUFFIX, sourceforge.net
-  - DOMAIN-SUFFIX, sf.net
-  - IP-CIDR, 216.105.38.0/24
+  - DOMAIN-SUFFIX,sourceforge.net
+  - DOMAIN-SUFFIX,sf.net
+  - IP-CIDR,216.105.38.0/24
   # Internet Archive
-  - DOMAIN-SUFFIX, archive.org
-  - IP-CIDR, 207.241.224.0/20
+  - DOMAIN-SUFFIX,archive.org
+  - IP-CIDR,207.241.224.0/20
   # KeyCDN
-  - DOMAIN-SUFFIX, kxcdn.com
-  - IP-CIDR, 193.25.252.0/23
+  - DOMAIN-SUFFIX,kxcdn.com
+  - IP-CIDR,193.25.252.0/23
