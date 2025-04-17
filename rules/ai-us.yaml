@@ -37,6 +37,7 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN,claude.ai
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,aistudio.google.com
