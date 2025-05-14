@@ -1,10 +1,10 @@
 rules:
-  - DOMAIN-SUFFIX,discord.com,PROXY
-  - DOMAIN-SUFFIX,discordapp.com,PROXY
-  - DOMAIN-SUFFIX,discord.gg,PROXY
-  - DOMAIN-SUFFIX,discord.media,PROXY
-  - GEOSITE,discord,PROXY
-  - PROCESS-NAME-REGEX,(?i)^discord(.+)?\.exe$,Discord
-  - PROCESS-NAME-REGEX,(?i)^update\.exe$,Discord
-  - PROCESS-NAME-REGEX,(?i)discord,Discord
-  - PROCESS-NAME-REGEX,(?i)discord,PROXY
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discord.media
+  - GEOSITE,discord
+  - PROCESS-NAME-REGEX,(?i)^discord(.+)?\.exe$
+  - PROCESS-NAME-REGEX,(?i)^update\.exe$
+  - PROCESS-NAME-REGEX,(?i)discord
+  - PROCESS-NAME-REGEX,(?i)discord
