@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,discordapp.com
   - DOMAIN-SUFFIX,discord.gg
   - DOMAIN-SUFFIX,discord.media
+  - DOMAIN-SUFFIX,discordsays.com
   - GEOSITE,discord
   - PROCESS-NAME-REGEX,(?i)^discord(.+)?\.exe$
   - PROCESS-NAME-REGEX,(?i)^update\.exe$
