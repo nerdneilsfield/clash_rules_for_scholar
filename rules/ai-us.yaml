@@ -10,6 +10,12 @@ payload:
   - DOMAIN,static.cloudflareinsights.com
   - DOMAIN,notebooklm.google.com
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,gamma.app
+  - DOMAIN,gamma.app
+  - DOMAIN,lauchdarkly.com
+  - DOMAIN-SUFFIX,lauchdarkly.com
+  - DOMAIN,typekit.net
+  - DOMAIN-SUFFIX,typekit.net
   - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,auth0.com
