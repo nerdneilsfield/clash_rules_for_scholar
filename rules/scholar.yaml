@@ -1,5 +1,4 @@
 payload:
-  # 你的原始列表（保持不变）
   - DOMAIN-SUFFIX,sciencedirect.com
   - DOMAIN-SUFFIX,springer.com
   - DOMAIN-SUFFIX,scopus.com
@@ -14,6 +13,9 @@ payload:
   - DOMAIN-SUFFIX,spiedigitallibrary.org
   - DOMAIN-SUFFIX,jstor.org
   - DOMAIN,dl.acm.org
+  # IEEE 需要这个
+  - DOMAIN,service.seamlessaccess.org
+  - DOMAIN-SUFFIX,seamlessaccess.org
   - DOMAIN,ieeexplore.ieee.org
   - DOMAIN-SUFFIX,ams.org
   - DOMAIN,academic.oup.com
