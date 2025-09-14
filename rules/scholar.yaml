@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,spiedigitallibrary.org
   - DOMAIN-SUFFIX,jstor.org
   - DOMAIN,dl.acm.org
+  - DOMAIN,iop.org
   # IEEE 需要这个
   - DOMAIN,service.seamlessaccess.org
   - DOMAIN-SUFFIX,seamlessaccess.org
