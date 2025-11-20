@@ -80,3 +80,5 @@ payload:
   - DOMAIN-SUFFIX,royalsociety.org
   - DOMAIN-SUFFIX,projecteuclid.org
   - DOMAIN-SUFFIX,pnas.org
+  - DOMAIN,www.computer.org
+  - DOMAIN-SUFFIX,computer.org
