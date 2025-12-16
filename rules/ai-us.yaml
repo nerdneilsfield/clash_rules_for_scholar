@@ -43,6 +43,8 @@ payload:
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
+  - DOMAIN-SUFFIX,zed.dev
+  - DOMAIN,cloud.zed.dev
   - DOMAIN,gemini.google.com
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN,grok.x.ai
