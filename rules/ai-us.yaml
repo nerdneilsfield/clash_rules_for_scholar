@@ -6,6 +6,7 @@ payload:
   - DOMAIN,cursor.com
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN,cursor.sh
+  - DOMAIN,anthropic.qualtrics.com
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN,openai-api.arkoselabs.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
