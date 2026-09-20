@@ -12,9 +12,12 @@ payload:
   - DOMAIN-SUFFIX,iop.org
   - DOMAIN-SUFFIX,spiedigitallibrary.org
   - DOMAIN-SUFFIX,jstor.org
+  - DOMAIN-SUFFIX,optica.org
   - DOMAIN,dl.acm.org
+  - DOMAIN,opg.optica.org
   - DOMAIN,iop.org
   - DOMAIN,scitepress.org
+  - DOMAIN,www.tandfonline.com
   # IEEE 需要这个
   - DOMAIN,service.seamlessaccess.org
   - DOMAIN-SUFFIX,seamlessaccess.org
